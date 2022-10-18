@@ -52,15 +52,16 @@ padding: 0.5rem 1rem;
 .primary-link{
 background-color: 
 #ccfbf1;    
-color: var(--primary-color);
+color: black;
 border-radius: 0.5rem;
 
 }
 
 .secondary-link{
-color:var(--primary-color);
+color:black;
 border-radius: 0.5rem;
 border: 1px solid var(--primary-color);
+padding-bottom: 0rem;
 
 }
 
@@ -81,9 +82,10 @@ list-style: none;
 }
 
 .navigation{
-    background-color: aqua;
+    background-color:#dcfce7;
     padding-top: 1rem;
     border-bottom-left-radius: 1rem;
+    padding-bottom: 1%;
     
 
 
@@ -98,7 +100,7 @@ font-size: 1.1rem;
 }
 
 .navigation .link {
-    color: white;
+    color: black;
     
 }
 
@@ -122,14 +124,15 @@ font-weight: bold;
 }
 
 .hero.hero-img {
-max-width: 350px;
-display: block;
+max-width: 200px;
 margin: auto;
+display: block;
+
 
 }
 
 .hero .hero-heading{
-    padding: 1rem;
+    padding: 3rem;
     color: gray;
     text-align: center;
 
@@ -142,26 +145,42 @@ color: #06b6d4;
 
 }
 
-.section h1 {
+.section {
 text-align: center;
-padding: 2rem
+padding: 1rem;
+
+
 }
 
 .ow{
-background-color: aqua;
+background-color: #dcfce7;
+padding: 1rem;
+border-bottom-left-radius: 1rem;
+border-top-right-radius: 1rem;
+
 
 }
 
 .footer{
-    background-color: aqua;
+    background-color: white;
     padding: 2rem 0rem;
     text-align: center;
-    color: antiquewhite;
+    color: black;
 
 
 }
 .footer .link {
-    color:white;
+    color:black;
 
 
+}
+
+.footer .footer-header{
+font-weight: bold;
+font-size: large;
+}
+
+
+.section.title{
+    text-align: right;
 }
