@@ -28,6 +28,12 @@ margin:2rem 0rem;
 }
 
 
+.margin-md{
+padding: 2rem;
+
+}
+
+
 .container {
 padding-left: 1rem;
 padding-right: 1rem;
@@ -51,7 +57,7 @@ padding: 0.5rem 1rem;
 
 .primary-link{
 background-color: 
-#ccfbf1;    
+aqua;    
 color: black;
 border-radius: 0.5rem;
 
@@ -61,7 +67,7 @@ border-radius: 0.5rem;
 color:black;
 border-radius: 0.5rem;
 border: 1px solid var(--primary-color);
-padding-bottom: 0rem;
+padding-bottom: 0.3rem;
 
 }
 
