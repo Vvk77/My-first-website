@@ -28,10 +28,6 @@ margin:2rem 0rem;
 }
 
 
-.margin-md{
-padding: 2rem;
-
-}
 
 
 .container {
@@ -133,8 +129,10 @@ font-weight: bold;
 max-width: 200px;
 margin: auto;
 display: block;
+}
 
-
+.hero-img {
+    width: 100%;
 }
 
 .hero .hero-heading{
